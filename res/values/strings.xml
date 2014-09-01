@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Power off</string>
+    <string name="warn">Your phone will shutdown</string>
+    <string name="title_activity_shutdown">Power off</string>
+    <string name="descr" tools:ignore="TypographyEllipsis">Shutting down...</string>
+    <string name="perm">This permission is need for lock screen</string>
+    <string name="acc_grant">Admin permission granted.</string>
+    <string name="acc_rem">Admin permission revocated. Now you can unistall this app.</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

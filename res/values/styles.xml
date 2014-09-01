@@ -1,0 +1,3 @@
+<resources>
+	<style name="Theme.TransparencyDemo" parent="@android:style/Theme.Holo.Light"/>
+</resources>
