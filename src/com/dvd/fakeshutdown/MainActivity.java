@@ -97,10 +97,9 @@ public class MainActivity extends Activity {
 		progressDialog = new ProgressDialog(MainActivity.this);
 		progressDialog.setCancelable(true);
 
-		if (!(Build.VERSION.SDK_INT == 20)) {
 			progressDialog
 					.setTitle(getString(R.string.title_activity_shutdown));
-		}
+		
 
 		progressDialog.setMessage(getString(R.string.descr));
 		progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
