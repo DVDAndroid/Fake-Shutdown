@@ -97,9 +97,7 @@ public class MainActivity extends Activity {
 		progressDialog = new ProgressDialog(MainActivity.this);
 		progressDialog.setCancelable(true);
 
-			progressDialog
-					.setTitle(getString(R.string.title_activity_shutdown));
-		
+		progressDialog.setTitle(getString(R.string.title_activity_shutdown));
 
 		progressDialog.setMessage(getString(R.string.descr));
 		progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
@@ -128,7 +126,25 @@ public class MainActivity extends Activity {
 						deviceManger = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
 						deviceManger.lockNow();
 
-						finish();
+						AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+								MainActivity.this);
+
+						alertDialogBuilder.setTitle(getApplicationContext()
+								.getString(R.string.hi));
+						alertDialogBuilder.setMessage(getApplicationContext()
+								.getString(R.string.cred));
+						alertDialogBuilder.setPositiveButton(
+								android.R.string.ok,
+								new DialogInterface.OnClickListener() {
+									@Override
+									public void onClick(DialogInterface dialog,
+											int id) {
+										finish();
+									}
+								});
+						AlertDialog alertDialog = alertDialogBuilder.create();
+						alertDialog.setCancelable(false);
+						alertDialog.show();
 
 					}
 				});

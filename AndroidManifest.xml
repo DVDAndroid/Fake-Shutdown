@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dvd.fakeshutdown"
     android:versionCode="6"
-    android:versionName="6" >
+    android:versionName="7" >
 
     <uses-sdk
         android:minSdkVersion="15"

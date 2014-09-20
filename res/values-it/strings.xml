@@ -8,5 +8,7 @@
     <string name="perm">Questo permesso è necessario per spegnere lo schermo</string>
     <string name="acc_grant">Permesso di amministratore accettato.</string>
     <string name="acc_rem">Permesso di amministratore revocato. Adesso puoi disinstallare l\'app</string>
+    <string name="hi">Arrivederci</string>
+    <string name="cred">App creata da DAVIDE MAG.</string>
 
 </resources>

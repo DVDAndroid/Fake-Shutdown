@@ -8,6 +8,7 @@
     <string name="perm">This permission is need for lock screen</string>
     <string name="acc_grant">Admin permission granted.</string>
     <string name="acc_rem">Admin permission revocated. Now you can unistall this app.</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hi">Goodbye!</string>
+    <string name="cred">App created by DAVIDE MAG.</string>
 
 </resources>
