@@ -1,5 +1,7 @@
 package com.dvd.fakeshutdown;
 
+import com.dvd.android.fakeshutdown.R;
+
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.AlarmManager;

@@ -1,5 +1,7 @@
 package com.dvd.fakeshutdown;
 
+import com.dvd.android.fakeshutdown.R;
+
 import android.app.admin.DeviceAdminReceiver;
 import android.content.Context;
 import android.content.Intent;
