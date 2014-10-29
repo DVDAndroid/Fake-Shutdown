@@ -1,4 +1,4 @@
-package com.dvd.fakeshutdown;
+package com.dvd.android.fakeshutdown;
 
 import com.dvd.android.fakeshutdown.R;
 
