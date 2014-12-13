@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Spegni</string>
+    <string name="warn">Il telefono verrà spento.</string>
+    <string name="title_activity_shutdown">Spegni</string>
+    <string name="descr" tools:ignore="TypographyEllipsis">Spegnimento...</string>
+    <string name="perm">Questo permesso è necessario per spegnere lo schermo</string>
+    <string name="acc_grant">Permesso di amministratore accettato.</string>
+    <string name="acc_rem">Permesso di amministratore revocato. Adesso puoi disinstallare l\'app</string>
+    <string name="hi">Arrivederci</string>
+    <string name="cred">App creata da DAVIDE MAG.</string>
+
+</resources>
